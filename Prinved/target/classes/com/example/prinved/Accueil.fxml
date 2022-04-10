@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="614.0" prefWidth="934.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prinved.AccueilController">
+   <children>
+      <Pane layoutX="35.0" layoutY="27.0" prefHeight="74.0" prefWidth="864.0" style="-fx-background-color: #6884e1;">
+         <children>
+            <Label layoutX="57.0" layoutY="24.0" text="Disponibilités" textFill="#eaeaea">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="448.0" fitWidth="408.0" layoutX="35.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField layoutX="635.0" layoutY="245.0" prefHeight="27.0" prefWidth="239.0" />
+      <Label layoutX="635.0" layoutY="220.0" text="Loyer" textFill="#6884e1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="635.0" layoutY="365.0" prefHeight="27.0" prefWidth="239.0" />
+      <Label layoutX="635.0" layoutY="340.0" text="Superficie" textFill="#6884e1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="645.0" layoutY="496.0" prefHeight="27.0" prefWidth="239.0" />
+      <Label layoutX="645.0" layoutY="443.0" text="Region" textFill="#6884e1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
